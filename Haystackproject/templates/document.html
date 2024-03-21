@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Documentquery</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        .input-group{
+            margin-top: 50px;
+            margin-left: 20px;
+            }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Document Query</a>
+</nav>
+
+<div class="input-group">
+    <div class="row">
+
+        <div class="col-md-12">
+            <h4>Upload the Document</h4>
+<!--            <div class="input-group-prepend">-->
+<!--                 <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>-->
+
+            <div class="custom-file">
+                <form action="store_docu" class="form_doc" method="post">
+                    {% csrf_token %}
+                    <input type="file" class="custom-file-input" id="inputGroupFile01" name="document" aria-describedby="inputGroupFileAddon01">
+                    <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                    <button type="submit">Upload</button>
+                </form>
+            </div>
+            </div>
+         </div>
+
+    </div>
+</div>
+
+
+</body>
+</html>

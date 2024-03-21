@@ -1,0 +1,79 @@
+Meenu Mohan
+PYTHON DEVELOPER
+Personal Profile
+Muweilah
+Sharjah, 
+UAE
++971542451077
+meenus0708@gmail.com
+NATIONALITY
+Indian
+Links
+LinkedIn
+Skills
+Python
+Django
+MySQL
+Excel Macros
+Data  Analysis
+Power Bi
+Fast learner
+Hobbies
+•Coding - Solving puzzles using 
+programming ( Sudoku etc)
+•Reading books- The Alchemist, 
+The Monk who sold his ferrari, 
+The Secret
+Languages
+English
+Hindi
+MalayalamProfessional Summary
+Results-driven Python Software Developer with a passion for financial services, seek-
+ing a challenging role to leverage my expertise in designing, developing, and maintain-
+ing innovative financial software solutions. Eager to collaborate with cross-functional 
+teams and utilize my proficiency in Python, Dash, Plotly, Docker, Kubernetes, SQL 
+Server, and more to drive excellence in banking risk solutions.
+Employment History
+Junior Python Full Stack Developer Intern, Inmakes Infotech Pvt Ltd, 
+Kochi, Kerala , India
+0 7 / 2 0 2 3
+•Developed and maintained back-end systems using Python and Django, in-
+cluding database design, API development, and server-side logic.
+•Applied expertise in Dash, Plotly, HTML,CSS , and JavaScriptto enhance 
+front-end applications, resulting in interactive financial dashboards.
+•Proficiency in SQL Server for database management and optimization.
+•Collaborated with cross-functional teams to design, develop, and maintain 
+financial software solutions, ensuring alignment with business objectives and 
+client needs.
+•Employed Python, NumPy, and pandas to develop data-driven applications, 
+contributing to data analysis and decision support.
+•Basic understanding of Azure or AWS cloud services.
+Office Administrator, Sumer Diesel Trading, Dubai, UAE.
+0 1 / 2 0 1 9  -  1 0 / 2 0 2 1
+VBA Developer, Al Safi Chemicals Industries LLC, Sharjah, UAE
+0 3 / 2 0 1 7  -  0 9 / 2 0 1 8
+Administrative Assistant, Safe Energy FZE, Sharjah, UAE
+0 9 / 2 0 1 6  -  0 2 / 2 0 1 7
+Education
+MTech Signal Processing, CUSAT, Kerala, India.
+0 7 / 2 0 1 3  -  0 5 / 2 0 1 5
+BTech , CUSAT, Kerala, India
+0 7 / 2 0 0 8  -  0 5 / 2 0 1 2
+Courses
+Data Science with Python, Intellipaat
+0 6 / 2 0 2 1  -  1 1 / 2 0 2 1
+ProjectsEcommerce Website
+The "Ecommerce Website" project is a robust and user-friendly online shopping plat-
+form built using Django Python, designed to provide a seamless and secure shopping 
+experience for customers. This web application offers a wide range of features for 
+both buyers and sellers, with a focus on scalability, security, and user satisfaction.
+The Movie  Rental store
+The Movie Rental Store project is a web application that allows users to browse, rent, 
+and manage movies. It is designed to mimic the functionality of an online movie rental 
+service.
+Analyzing the trends of Covid-19 with Python
+From the given data of covid patients, visualized the impact and analyzed the trend of 
+rate of infection and recovery as well as make predictions about the number of cases 
+expected a week in future based on current trends.
+Additional Information
+Presently in UAE in Spouse Visa

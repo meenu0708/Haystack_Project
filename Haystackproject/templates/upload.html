@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Documentquery</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <style>
+
+         body {
+            background-image: url("{% static 'images/background1.jpg' %}"); /* Replace 'your-image.jpg' with the actual image file path or URL */
+            background-size: cover; /* Adjust the size to cover the entire viewport */
+            background-repeat: no-repeat; /* Prevent the image from repeating */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color:	#F0FFFF;
+            color: #191970;
+            text-align: center;
+            padding: 20px;
+        }
+        .input-group{
+            margin-top: 50px;
+            margin-left: 20px;
+            }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .section {
+            flex: 1;
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f6;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">NLP DOCUSEARCH</a>
+</nav>
+<header>
+        <h1>DOCUMENT INQUIRY</h1> <!-- Header text -->
+</header>
+<div class="container">
+    <div class="section">
+        <h4 style="margin-left:5px;">Upload the Document</h4>
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">Upload</button>
+        </form>
+        <h4>List of Uploaded Documents:</h4>
+        <ul>
+            {% for document in uploaded_files %}
+                <li>
+                    {{document}}
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="section">
+        <h4 style="margin-left:5px;">Query</h4>
+        <form method="post" action="query" class="query">
+            {% csrf_token %}
+            <br>
+            <input type="text" name="query" placeholder="Enter your query here">
+            <button type="submit">Search</button>
+        </form>
+    </div>
+</div>
+<div class="container">
+        <div class="section">
+            <h2>Document Search Results</h2>
+            <div id="answer-display">
+                <p>Query: {{ query }}</p>
+                <p>Answer: {{result}}</p>
+
+
+
+                <!-- The answer will be displayed here -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
